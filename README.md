@@ -1,1 +1,3 @@
-# carousel jQuery plugin cross-device
+# Carousel Plugin jQuery
+
+# example in index.html 
