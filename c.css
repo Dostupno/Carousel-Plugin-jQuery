@@ -1,0 +1,54 @@
+body, ul { margin: 0; padding:0; }
+
+.photo, .movie {
+	width:100%;
+	height: 200px;
+	border: 1px solid #ccc;
+	overflow:hidden;
+	margin:10px auto;
+	position: relative;
+}
+
+.photo > a, .movie > a{
+	position: absolute;
+}
+
+.photo > a:first-child, .movie > a:first-child {
+	left:0;
+	top:0;
+}
+
+.photo ul + a, .movie  ul + a{
+	right:0;
+	top:0;
+}
+
+.photo ul, .movie ul {
+	position: relative;
+	left:0;
+}
+
+.photo li, .movie li {
+	list-style: none;
+	margin: 0 5px;
+	width: 196px;
+	height: 110px;
+	float: left;
+}
+
+.photo li img, .movie li img {
+	border: 1px solid #ccc;
+	width: 196px;
+	height: 110px;				
+}
+.photoLayer, .movieLayer {
+	margin: 0 50px;
+}
+/*.block.left {
+	float: left;
+	width: 700px;	
+}
+.slide.right {
+	float: left;
+	width: 206px;	
+}*/
